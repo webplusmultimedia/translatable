@@ -1,5 +1,5 @@
 {
-    "name": "terranet/translatable",
+    "name": "webplusmultimedia/translatable",
     "description": "A Laravel package for multilingual models",
     "keywords": ["laravel", "translation", "language", "database", "admin architect"],
     "license": "MIT",
