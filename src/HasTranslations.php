@@ -187,7 +187,7 @@ trait HasTranslations
             if ($translation = $this->getTranslation()) {
                 if ($value = $translation->$key)
                     return $translation->$key;
-                # fallback: try to find default locale values
+                # fallback: try to find default locale values when need
                 if ($translation = $this->getTranslation(\localizer\getDefault()->id())) {
                     return $translation->$key;
                 }
